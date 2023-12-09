@@ -1,0 +1,27 @@
+{
+  "name": "assignment-12-back-end",
+  "version": "1.0.0",
+  "description": "1. **User Authentication:**    - `/api/auth/register` (POST)    - `/api/auth/login` (POST)    - `/api/auth/logout` (POST)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^2.2.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "stripe": "^14.7.0"
+  }
+}
